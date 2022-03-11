@@ -1,0 +1,16 @@
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\bin\Debug\net5.0\Conta_Corrente.ConsoleApp.exe
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\bin\Debug\net5.0\Conta_Corrente.ConsoleApp.deps.json
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\bin\Debug\net5.0\Conta_Corrente.ConsoleApp.runtimeconfig.json
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\bin\Debug\net5.0\Conta_Corrente.ConsoleApp.runtimeconfig.dev.json
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\bin\Debug\net5.0\Conta_Corrente.ConsoleApp.dll
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\bin\Debug\net5.0\Conta_Corrente.ConsoleApp.pdb
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\obj\Debug\net5.0\Conta_Corrente.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\obj\Debug\net5.0\Conta_Corrente.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\obj\Debug\net5.0\Conta_Corrente.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\obj\Debug\net5.0\Conta_Corrente.ConsoleApp.AssemblyInfo.cs
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\obj\Debug\net5.0\Conta_Corrente.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\obj\Debug\net5.0\Conta_Corrente.ConsoleApp.dll
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\obj\Debug\net5.0\refint\Conta_Corrente.ConsoleApp.dll
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\obj\Debug\net5.0\Conta_Corrente.ConsoleApp.pdb
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\obj\Debug\net5.0\Conta_Corrente.ConsoleApp.genruntimeconfig.cache
+C:\Users\Carlos Daniel\source\repos\Conta_Corrente\Conta_Corrente.ConsoleApp\Conta_Corrente.ConsoleApp\obj\Debug\net5.0\ref\Conta_Corrente.ConsoleApp.dll
