@@ -8,7 +8,7 @@ namespace Conta_Corrente.ConsoleApp
 {
     public class Movimentacao
     {
-        public decimal valor;
+        public double valor;
         public TipoMovimentacao tipo;
         public string descricao;
 

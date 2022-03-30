@@ -8,14 +8,26 @@ namespace Conta_Corrente.ConsoleApp
 {
     public class ContaCorrente
     {
-        public int ID;
-        public decimal saldo;
-        public int numero;
-        public decimal limite;
-        public bool ehEspecial;
-        public Movimentacao[] movimentacoes;
+        private int ID;
+        private double saldo;
+        private int numero;
+        private double limite;
+        private bool ehEspecial;
+        private Movimentacao[] movimentacoes;
 
-        public string StatusDaConta()
+        public ContaCorrente(int ID, double novoSaldo, int novoNumero, double novoLimite, bool ehEspecial, int numeroMovimentacoes)
+        {
+            this.ID = ID;
+            this.saldo = novoSaldo;
+            this.numero = novoNumero;
+            this.limite = novoLimite;
+            this.ehEspecial = ehEspecial;
+            movimentacoes = new Movimentacao[numeroMovimentacoes];
+            
+        }
+
+
+        private string StatusDaConta()
         {
             string status = "";
             if (ehEspecial == true)
@@ -29,14 +41,15 @@ namespace Conta_Corrente.ConsoleApp
             return status;
         }
 
-        public void Sacar(decimal valor)
+        public void Sacar(double valor)
         {
-            if (saldo < valor)
-                Console.WriteLine("Seu saldo é insuficiente para sacar a quantia desejada");
+            if (valor > saldo + limite)
+            {
+                Console.WriteLine("Não foi possivel sacar ultrapassou o limite");
+            }
             else
             {
-                decimal novoSaldo = saldo - valor;
-                saldo = novoSaldo;
+                this.saldo -= valor;
                 
 
                 Movimentacao movimentacao = new Movimentacao();
@@ -50,7 +63,7 @@ namespace Conta_Corrente.ConsoleApp
                
         }
 
-        public void Depositar(decimal valor)
+        public void Depositar(double valor)
         {
             this.saldo += valor;
 
@@ -63,9 +76,9 @@ namespace Conta_Corrente.ConsoleApp
             movimentacoes[posicaoVazia] = movimentacao;
         }
 
-        public void TransferirPara( ContaCorrente destino ,decimal valor)
+        public void TransferirPara( ContaCorrente destino ,double valor)
         {
-            if (this.saldo < valor)
+            if (saldo < valor)
                 Console.WriteLine("Não foi possivel transferir seu saldo é menor que o valor");
             else
             {
@@ -74,7 +87,7 @@ namespace Conta_Corrente.ConsoleApp
             }
 
         }
-        public int PegaPosicaoVazia()
+        private int PegaPosicaoVazia()
         {
             int posicao = 0;
 
